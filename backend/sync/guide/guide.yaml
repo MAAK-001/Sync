@@ -1,0 +1,253 @@
+# What Sync listens for in every conversation (one general guide; there are no roles).
+# goals: what a good conversation leaves you with. slots: numbers worth tracking (budget, go-live…).
+# vague_terms: words worth pinning down; category = time | quantity | quality | cost.
+description: Helps anyone in a conversation that matters leave with clear outcomes.
+listens_for:
+- the goal of the conversation
+- timelines
+- who decides
+- commitments
+- next steps
+goals:
+- id: goal
+  text: The goal of the conversation is clear
+  question: 'Ask: what would make this a success for you?'
+  keywords:
+  - goal
+  - objective
+  - purpose
+  - hoping to
+  - looking for
+  - want to achieve
+  - success
+  - outcome
+  examples:
+  - what we want out of this is
+  - our main goal is
+  - we are hoping to
+  importance: 4
+  persist: true
+- id: timeline
+  text: Timeline or deadline is clear
+  question: 'Ask: what''s the timeline we''re working with?'
+  keywords:
+  - timeline
+  - deadline
+  - by when
+  - schedule
+  - due date
+  - target date
+  examples:
+  - we need this done by March
+  - the deadline is next month
+  importance: 4
+  persist: true
+- id: decision
+  text: Who decides is clear
+  question: 'Ask: who else needs to be part of this decision?'
+  keywords:
+  - decide
+  - decision
+  - approve
+  - approval
+  - sign off
+  - sign-off
+  - final say
+  examples:
+  - my manager has to approve it
+  - the board decides
+  importance: 3
+  persist: true
+- id: next_step
+  text: Next step agreed, with an owner and a date
+  question: 'Ask: what''s the next step, and who owns it?'
+  keywords:
+  - next step
+  - next steps
+  - follow up
+  - follow-up
+  - next meeting
+  - action item
+  examples:
+  - I'll send you the details by Friday
+  - let's meet again next week
+  importance: 5
+slots:
+  budget:
+    label: budget
+    triggers:
+    - budget
+    - budgeted
+    - spend
+    - allocated
+    - sanctioned
+    - can afford
+    - afford
+    kind: money
+    importance: 5
+  price:
+    label: price
+    triggers:
+    - price
+    - pricing
+    - cost
+    - costs
+    - quote
+    - quoted
+    - fee
+    - fees
+    - charge
+    - charges
+    - rate
+    - licence fee
+    - license fee
+    kind: money
+    direction: min
+    importance: 5
+  discount:
+    label: discount
+    triggers:
+    - discount
+    - off the list
+    - off list price
+    - rebate
+    kind: percent
+    direction: max
+    importance: 5
+  go_live:
+    label: go-live timeline
+    triggers:
+    - go live
+    - go-live
+    - be live
+    - live in
+    - live by
+    - launch
+    - rollout
+    - roll out
+    - implementation
+    - implement
+    - deploy
+    - deployment
+    - onboarding
+    - up and running
+    - set up
+    - setup
+    kind: duration
+    direction: min
+    importance: 5
+  response_time:
+    label: response time
+    triggers:
+    - response time
+    - respond within
+    - respond in
+    - sla
+    - resolution time
+    - resolve
+    - turnaround
+    - get back within
+    kind: duration
+    direction: min
+    importance: 4
+  payment_terms:
+    label: payment terms
+    triggers:
+    - payment terms
+    - payment term
+    - net
+    - credit period
+    - pay within
+    - invoice due
+    - payable
+    kind: duration
+    importance: 4
+  contract_term:
+    label: contract term
+    triggers:
+    - contract
+    - term
+    - lock-in
+    - lock in
+    - commitment
+    - commit for
+    - agreement for
+    - tenure
+    kind: duration
+    importance: 4
+  refund:
+    label: refund
+    triggers:
+    - refund
+    - refundable
+    - money back
+    - reimburse
+    kind: percent
+    direction: max
+    importance: 4
+  key_date:
+    label: date
+    triggers:
+    - launch
+    - launching
+    - release
+    - ship
+    - deadline
+    - due
+    - go live
+    - go-live
+    - campaign
+    - kickoff
+    - kick-off
+    - cutover
+    - delivery
+    kind: date
+    importance: 5
+  volume:
+    label: volume
+    triggers:
+    - users
+    - seats
+    - licenses
+    - licences
+    - employees
+    - agents
+    - locations
+    - stores
+    - devices
+    - people
+    kind: count
+    importance: 4
+vague_terms:
+  soon: time
+  asap: time
+  as soon as possible: time
+  quickly: time
+  shortly: time
+  in a while: time
+  at some point: time
+  sometime: time
+  later this year: time
+  next quarter: time
+  a few weeks: time
+  couple of weeks: time
+  a lot: quantity
+  lots of: quantity
+  a few: quantity
+  several: quantity
+  a couple of: quantity
+  huge: quantity
+  high volume: quantity
+  scalable: quality
+  secure: quality
+  reliable: quality
+  fast: quality
+  user-friendly: quality
+  seamless: quality
+  robust: quality
+  flexible: quality
+  cheap: cost
+  affordable: cost
+  reasonable price: cost
+  reasonably priced: cost
+  within budget: cost

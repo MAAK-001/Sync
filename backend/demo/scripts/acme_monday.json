@@ -1,0 +1,65 @@
+{
+  "title": "Acme intro call",
+  "caller": "Priya (Acme)",
+  "utterances": [
+    {
+      "channel": "them",
+      "speaker": "A",
+      "text": "Hi, this is Priya from Acme, I head IT there."
+    },
+    {
+      "channel": "you",
+      "text": "Hi Priya, I'm Meera from Northwind. Thanks for taking the time. What made you look at a new CRM?"
+    },
+    {
+      "channel": "them",
+      "speaker": "A",
+      "text": "Our sales and billing data live in different systems, and reconciling them takes my team days every month."
+    },
+    {
+      "channel": "you",
+      "text": "Which systems are we talking about?"
+    },
+    {
+      "channel": "them",
+      "speaker": "A",
+      "text": "Finance runs on SAP ECC, on-premise, and billing is an old in-house system."
+    },
+    {
+      "channel": "you",
+      "text": "Got it. Do you need the data hosted in a specific region?"
+    },
+    {
+      "channel": "them",
+      "speaker": "A",
+      "text": "Yes, it has to be the EU region, our parent company is in Germany."
+    },
+    {
+      "channel": "you",
+      "text": "Understood. What budget have you set aside for this?"
+    },
+    {
+      "channel": "them",
+      "speaker": "A",
+      "text": "We have a budget of about forty lakh for the whole project."
+    },
+    {
+      "channel": "you",
+      "text": "That helps. Could you send me an architecture diagram of the current setup?"
+    },
+    {
+      "channel": "them",
+      "speaker": "A",
+      "text": "Sure, I'll send it by Thursday."
+    },
+    {
+      "channel": "you",
+      "text": "Great. Let's do a deeper technical session on Thursday with your team."
+    },
+    {
+      "channel": "them",
+      "speaker": "A",
+      "text": "Sounds good, I'll bring Arjun from finance. Talk soon."
+    }
+  ]
+}

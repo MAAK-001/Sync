@@ -1,0 +1,66 @@
+{
+  "title": "Sales call with Jordan",
+  "caller": "Jordan",
+  "user": "Alex",
+  "objective": "Qualify the prospect, answer technical questions, and secure a follow-up meeting.",
+  "expect": [
+    [
+      2,
+      "Q4 budget finalised by next Thursday was ignored: acknowledge the timeline / ask about the budget"
+    ],
+    [
+      5,
+      "Partial answer: the API rate limit per minute was never answered (spec: 1,000 requests/minute)"
+    ],
+    [
+      7,
+      "Alex blanked on the onboarding fee: surface 'Standard onboarding 50-99 users: $2,500 flat fee'"
+    ],
+    [
+      9,
+      "Lost action items: SOC2 whitepaper, implementation-engineer intro, calendar invite (Tue 2 PM), exact onboarding fee"
+    ]
+  ],
+  "utterances": [
+    {
+      "channel": "you",
+      "text": "Hi Jordan, thanks for taking the time today. To start, I'd love to hear a bit about how your team is currently managing your daily operations and where you're running into bottlenecks."
+    },
+    {
+      "channel": "them",
+      "text": "Thanks, Alex. Well, we are currently using LegacyCorp. It's reliable, but the reporting takes hours to generate, which is killing our productivity. We need something faster. Also, just as a heads-up, we are finalizing our Q4 budget by next Thursday, so we're trying to move quickly on finding a replacement.",
+      "speaker": "A"
+    },
+    {
+      "channel": "you",
+      "text": "I hear that a lot about LegacyCorp. Our platform was actually built from the ground up for speed. Let me share my screen and show you how our reporting dashboard can generate those same reports in under 10 seconds."
+    },
+    {
+      "channel": "them",
+      "text": "Wow, that is significantly faster. But our IT team is very strict about what we bring into our ecosystem. Does your Enterprise tier integrate natively with HubSpot, and what is the exact API rate limit per minute?",
+      "speaker": "A"
+    },
+    {
+      "channel": "you",
+      "text": "Yes, absolutely! We have native integration with HubSpot. In fact, about 60% of our current enterprise clients use it, and they love how seamless it is to sync contacts back and forth."
+    },
+    {
+      "channel": "them",
+      "text": "Okay, good to know about the HubSpot integration. Since we're trying to figure out the budget, what does the implementation and onboarding fee look like for a team of 50 users?",
+      "speaker": "A"
+    },
+    {
+      "channel": "you",
+      "text": "Great question. For the software itself, it's $40 per user per month. As for the onboarding fee for 50 users... give me one second, my mind just went blank. It usually depends on the tier, but I believe it's somewhere around..."
+    },
+    {
+      "channel": "them",
+      "text": "No problem, you can just email me the exact figure later. I think I've seen enough for today, and I'd like to bring my VP of IT into this. Can you send me your SOC2 security whitepaper, introduce me via email to one of your implementation engineers, and send over a calendar invite for next Tuesday at 2 PM?",
+      "speaker": "A"
+    },
+    {
+      "channel": "you",
+      "text": "Absolutely, I can definitely get that calendar invite sent over right away for Tuesday at 2 PM. I look forward to speaking with you and your VP of IT then! Have a great week, Jordan."
+    }
+  ]
+}

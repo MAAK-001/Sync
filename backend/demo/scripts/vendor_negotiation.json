@@ -1,0 +1,86 @@
+{
+  "title": "Northwind proposal review",
+  "caller": "Karan (Northwind)",
+  "gaps": [
+    {
+      "gap": "G6",
+      "after": 6,
+      "within": 45,
+      "note": "10% discount only with a two-year contract"
+    },
+    {
+      "gap": "G5",
+      "after": 12,
+      "within": 45,
+      "note": "revised quote promised without a date"
+    },
+    {
+      "gap": "G4",
+      "after": 13,
+      "within": 40,
+      "note": "a goal of the conversation not covered at the close"
+    }
+  ],
+  "utterances": [
+    {
+      "channel": "them",
+      "speaker": "A",
+      "text": "Hi, this is Karan from Northwind. Thanks for joining."
+    },
+    {
+      "channel": "you",
+      "text": "Hi Karan. We've reviewed the proposal. What's the total cost for two hundred users?"
+    },
+    {
+      "channel": "them",
+      "speaker": "A",
+      "text": "It's twelve hundred rupees per user per month, so about twenty eight lakh a year."
+    },
+    {
+      "channel": "you",
+      "text": "And is implementation included in that?"
+    },
+    {
+      "channel": "them",
+      "speaker": "A",
+      "text": "Implementation is a separate one-time fee, starting at four lakh."
+    },
+    {
+      "channel": "them",
+      "speaker": "A",
+      "text": "If you sign for two years, we can give you a ten percent discount."
+    },
+    {
+      "channel": "you",
+      "text": "That's interesting. How quickly can you deliver?"
+    },
+    {
+      "channel": "them",
+      "speaker": "A",
+      "text": "We can usually go live in about six weeks."
+    },
+    {
+      "channel": "you",
+      "text": "That works for us."
+    },
+    {
+      "channel": "them",
+      "speaker": "A",
+      "text": "Great, our customers are usually live and happy within two months."
+    },
+    {
+      "channel": "you",
+      "text": "Okay, please send us the revised quote."
+    },
+    {
+      "channel": "them",
+      "speaker": "A",
+      "text": "Sure, I'll send it over."
+    },
+    {
+      "channel": "you",
+      "text": "Thanks Karan, talk soon.",
+      "pause": 6
+    }
+  ]
+}

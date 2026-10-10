@@ -1,0 +1,83 @@
+{
+  "title": "Vendor follow-up call",
+  "caller": "Alex (FX Digital Solutions)",
+  "forbid": [
+    "G4"
+  ],
+  "gaps": [
+    {
+      "gap": "G5",
+      "after": 6,
+      "within": 60,
+      "note": "Alex will send a guide 'right after this call' - no concrete time"
+    },
+    {
+      "gap": "G11",
+      "after": 9,
+      "within": 60,
+      "note": "Thursday agreed for the training review, but no time was set"
+    }
+  ],
+  "utterances": [
+    {
+      "channel": "them",
+      "speaker": "A",
+      "text": "Hello Sam, this is Alex from FX Digital Solutions. Do you have a quick two minutes to talk?"
+    },
+    {
+      "channel": "you",
+      "text": "Hi Alex, yes. I'm just reviewing your last email."
+    },
+    {
+      "channel": "them",
+      "speaker": "A",
+      "text": "I'm calling to follow up on the new inventory dashboard we launched for your team on Tuesday. How is everyone finding it so far?"
+    },
+    {
+      "channel": "you",
+      "text": "Overall it looks clean and much faster than our old system. However, a few of my warehouse staff mentioned they are having trouble exporting the weekly report to PDF."
+    },
+    {
+      "channel": "them",
+      "speaker": "A",
+      "text": "I completely understand. That is a quick fix. It usually happens if browser pop-up blockers are turned on."
+    },
+    {
+      "channel": "them",
+      "speaker": "A",
+      "text": "I can send over a one minute step by step guide right after this call."
+    },
+    {
+      "channel": "you",
+      "text": "Oh, that would be great. If you can email that over, we will forward it to them right away."
+    },
+    {
+      "channel": "them",
+      "speaker": "A",
+      "text": "Aside from that, are you ready for our full training review schedule for next Thursday?"
+    },
+    {
+      "channel": "you",
+      "text": "Yes, Thursday works for us. Can we add a quick segment on user permissions?"
+    },
+    {
+      "channel": "them",
+      "speaker": "A",
+      "text": "Okay, consider it added."
+    },
+    {
+      "channel": "them",
+      "speaker": "A",
+      "text": "I'll update the meeting agenda and email it to you this afternoon."
+    },
+    {
+      "channel": "them",
+      "speaker": "A",
+      "text": "Thank you for your time, Sam."
+    },
+    {
+      "channel": "you",
+      "text": "Thank you, Alex. Talk soon."
+    }
+  ]
+}

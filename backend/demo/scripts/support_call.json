@@ -1,0 +1,85 @@
+{
+  "title": "Duplicate charge",
+  "caller": "Customer",
+  "gaps": [
+    {
+      "gap": "G8",
+      "after": 6,
+      "within": 20,
+      "note": "100% refund promised; policy caps refunds at 50%"
+    },
+    {
+      "gap": "G1",
+      "after": 7,
+      "within": 90,
+      "note": "'when will the charge be reversed?' never answered"
+    },
+    {
+      "gap": "G5",
+      "after": 12,
+      "within": 40,
+      "note": "confirmation email promised without a date"
+    }
+  ],
+  "utterances": [
+    {
+      "channel": "them",
+      "speaker": "A",
+      "text": "Hi, I was charged twice for my annual plan and I need this fixed today."
+    },
+    {
+      "channel": "you",
+      "text": "I'm sorry about that. Can I have the email address on the account?"
+    },
+    {
+      "channel": "them",
+      "speaker": "A",
+      "text": "It's priya dot shah at example dot com."
+    },
+    {
+      "channel": "you",
+      "text": "Thanks, I can see two charges on the third of this month."
+    },
+    {
+      "channel": "them",
+      "speaker": "A",
+      "text": "If this keeps happening I want to cancel and get my money back."
+    },
+    {
+      "channel": "you",
+      "text": "Don't worry, we can refund a hundred percent of the annual fee if you cancel."
+    },
+    {
+      "channel": "them",
+      "speaker": "A",
+      "text": "Okay. When will the duplicate charge be reversed?"
+    },
+    {
+      "channel": "you",
+      "text": "Let me check with our billing team."
+    },
+    {
+      "channel": "them",
+      "speaker": "A",
+      "text": "And will this affect my team's access to the account?"
+    },
+    {
+      "channel": "you",
+      "text": "No, your team's access stays active the whole time."
+    },
+    {
+      "channel": "them",
+      "speaker": "A",
+      "text": "Alright, I'll wait for your email then."
+    },
+    {
+      "channel": "you",
+      "text": "I'll email you the confirmation."
+    },
+    {
+      "channel": "them",
+      "speaker": "A",
+      "text": "Thanks, bye."
+    }
+  ]
+}

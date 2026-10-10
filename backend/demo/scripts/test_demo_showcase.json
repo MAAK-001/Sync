@@ -1,0 +1,38 @@
+{
+  "title": "Compact Showcase",
+  "caller": "Alex (Horizon)",
+  "utterances": [
+    {
+      "channel": "them",
+      "speaker": "A",
+      "text": "Hi, I'm Alex. We are looking to finalize our budget soon."
+    },
+    {
+      "channel": "you",
+      "text": "Great! How many developer seats are you looking to purchase?"
+    },
+    {
+      "channel": "them",
+      "speaker": "A",
+      "text": "I'm not exactly sure yet. Honestly, my biggest concern is that the onboarding will be too disruptive."
+    },
+    {
+      "channel": "you",
+      "text": "Don't worry, our onboarding is very smooth. Also, someone needs to run the security assessment."
+    },
+    {
+      "channel": "them",
+      "speaker": "A",
+      "text": "I can handle that. I'll send you our standard questionnaire. I will email it to you right after this call."
+    },
+    {
+      "channel": "you",
+      "text": "Perfect. Let's schedule a technical deep dive for next Tuesday."
+    },
+    {
+      "channel": "them",
+      "speaker": "A",
+      "text": "Tuesday works for me."
+    }
+  ]
+}
